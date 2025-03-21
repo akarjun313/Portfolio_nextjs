@@ -5,9 +5,9 @@ export default function Hero() {
   return (
     <div className="relative">
       <div
-        className="absolute top-[165px] left-52 rotate-6 z-10"
+        className="absolute top-[4.5rem] md:top-[11.5rem] left-24 md:left-52 rotate-6 z-10"
       >
-        <h1 className="font-roboto font-bold text-[42px] animate-once animate-fade-right">Arjun Appukuttan</h1>
+        <h1 className="font-roboto font-bold text-lg md:text-[42px] animate-once animate-fade-right">Arjun Appukuttan</h1>
       </div>
       <Image
         className="animate-once animate-fade-down"
@@ -17,9 +17,9 @@ export default function Hero() {
         height={900}
       />
       <div
-        className="absolute bottom-[70px] left-16 z-10"
+        className="absolute bottom-[24.5em] md:bottom-[70px] left-6 md:left-16 z-10"
       >
-        <h2 className="animate-once animate-fade-right font-light text-xs">FULL STACK WEB DEVELOPER</h2>
+        <h2 className="animate-once animate-fade-right font-light text-[.6rem] md:text-xs">FULL STACK WEB DEVELOPER</h2>
       </div>
     </div>
   )

@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import { roboto, genos } from "@/lib/fonts"
 import "./globals.css" 
 
 
@@ -9,7 +10,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html
+      lang="en"
+      className={`${roboto.variable} ${genos.variable}`}
+    >
       <body
         className='antialiased bg-black text-white'
       >

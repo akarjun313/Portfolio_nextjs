@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
 import animated from 'tailwindcss-animated'
+import {fontFamily} from 'tailwindcss/defaultTheme'
 
 export default {
   content: [
@@ -15,7 +16,9 @@ export default {
       //   foreground: "var(--foreground)",
       // },
       fontFamily: {
-        roboto: ["var(--font-roboto)", "sans-serif"],
+        roboto: ["var(--font-roboto)", ...fontFamily.sans],
+        genos: ["var(--font-genos)", ...fontFamily.sans],
+        zuume: ["zuume", ...fontFamily.sans]
       },
     },
   },

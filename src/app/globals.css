@@ -2,6 +2,56 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ZUUME FONTS  */
+@font-face {
+  font-family: 'zuume';
+  src: url('/fonts/Zuume Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'zuume';
+  src: url('/fonts/Zuume SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'zuume';
+  src: url('/fonts/Zuume Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'zuume';
+  src: url('/fonts/Zuume ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'zuume';
+  src: url('/fonts/Zuume Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+/* TEXT STROKE  */
+.text-stroke {
+  -webkit-text-stroke: 1px white; /* Stroke thickness and color */
+  -webkit-text-fill-color: transparent; /* Optional: Makes the text transparent */
+}
+
+
+/* Hide scrollbar for all browsers */
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+
+/* html { */
+  /* scrollbar-width: none; Firefox */
+  /* -ms-overflow-style: none; Internet Explorer & Edge */
+/* } */
+
 
 /* :root {
   --background: #ffffff;
