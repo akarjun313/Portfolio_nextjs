@@ -3,6 +3,7 @@ import Hero from "@/components/Hero"
 import Navbar from "@/ui/Navbar"
 import AboutDescription from "@/components/AboutDescription"
 import SkillSet from "@/components/SkillSet";
+import ProjectShowcase from "@/components/ProjectShowcase";
 
 
 export default function Home() {
@@ -37,11 +38,12 @@ export default function Home() {
         id="projects"
       >
         <SectionHeading headT="MY" headB="WORK" caption="Lines of Code Written" />
+        <ProjectShowcase />
       </section>
       <section
         id="contact"
       >
-        <SectionHeading headT="PING" headB="ME" caption="Drop Your Thoughts" />
+        <SectionHeading headT="PING" headB="ME" caption="Connect Me Through" />
       </section>
 
     </main>

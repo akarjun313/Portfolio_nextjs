@@ -3,7 +3,11 @@
 export default function AboutDescription() {
     return (
         <div
-            className="flex flex-col md:flex-row justify-between bg-[#7B4BD3] shadow-[4px_5px_10px_#e5e1db] rounded-md mx-auto w-5/6 px-11 py-10 animate-fade animate-once animate-delay-[1700ms]"
+            className="flex flex-col md:flex-row justify-between bg-[#7B4BD3] shadow-[4px_5px_10px_#e5e1db] rounded-md mx-auto w-5/6 px-11 py-10"
+            data-aos="flip-up"
+            data-aos-duration="1000"
+            data-aos-easing="linear"
+            data-aos-anchor-placement='top-bottom'
         >
             <div
                 className="flex flex-col w-full md:w-2/3"

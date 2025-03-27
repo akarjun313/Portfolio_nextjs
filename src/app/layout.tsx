@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { roboto, genos } from "@/lib/fonts"
 import "./globals.css" 
+import AOSInitializer from "@/components/AOSInitializer"
 
 
 export const metadata: Metadata = {
@@ -17,6 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body
         className='antialiased bg-black text-white'
       >
+        <AOSInitializer />
         {children}
       </body>
     </html>

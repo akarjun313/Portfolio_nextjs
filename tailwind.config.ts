@@ -1,5 +1,4 @@
 import type { Config } from "tailwindcss";
-import animated from 'tailwindcss-animated'
 import {fontFamily} from 'tailwindcss/defaultTheme'
 
 export default {
@@ -23,6 +22,5 @@ export default {
     },
   },
   plugins: [
-    animated,
   ],
 } satisfies Config;
