@@ -36,9 +36,33 @@ export default function Home() {
       </section>
       <section
         id="projects"
+        className="pb-24 md:pb-36"
       >
         <SectionHeading headT="MY" headB="WORK" caption="Lines of Code Written" />
-        <ProjectShowcase />
+        <ProjectShowcase
+          projectTitle="Movie Ticket Booking Application"
+          overview="This Movie Ticket Booking Application is a full-stack project that enables users to browse movies, 
+          select showtimes, book tickets, and leave reviews. It offers a seamless booking experience with secure authentication, 
+          real-time seat selection, and online payments. The application includes an Admin Panel, where admins can manage users, 
+          bookings, and add movies to the platform, and an Owner Panel, which allows theater owners to add and manage their theaters 
+          and schedules."
+          techStack={["ReactJS", "ExpressJS", "Typescript", "MongoDB", "Socket.io"]}
+          projectImageSrc="https://res.cloudinary.com/dvzshp8jv/image/upload/v1743165443/PortfolioWebsite_projectIMG/ghx8qiwkfyyfwv9ps4iw.png"
+          githubLink="https://github.com/akarjun313/MovieTicket_New_FE.git"
+          liveDemoLink="https://movie-ticket-new-fe.vercel.app/"
+        />
+
+
+        <ProjectShowcase
+          projectTitle="E-Commerce Application - Wrist Watch Selling Platform"
+          overview="This E-commerce Application is a full-stack project for selling watches online. 
+          It allows users to browse products, add items to their cart, make secure payments, and track their orders in real time. 
+          The platform ensures a smooth shopping experience with an intuitive UI and efficient backend operations."
+          techStack={["ReactJS", "ExpressJS", "MongoDB"]}
+          projectImageSrc="https://res.cloudinary.com/dvzshp8jv/image/upload/v1743165443/PortfolioWebsite_projectIMG/hfidobbgkougdamgncgl.png"
+          githubLink="https://github.com/akarjun313/EcommApp_FE.git"
+          liveDemoLink="https://ecomm-app-fe.vercel.app/"
+        />
       </section>
       <section
         id="contact"
