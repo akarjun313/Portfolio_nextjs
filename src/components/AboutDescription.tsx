@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 
 export default function AboutDescription() {
@@ -34,9 +35,14 @@ export default function AboutDescription() {
                 </p>
             </div>
             <div
-                className="bg-black w-40 h-40 rounded-full shadow-lg hidden md:flex justify-center items-center "
+                className="w-40 h-40 lg:w-60 lg:h-60 rounded-full shadow-lg hidden md:flex justify-center items-center relative"
             >
-                <h2>Image</h2>
+                <Image
+                src = "/profil_IMG.jpg"
+                alt = "Profile_Image"
+                fill
+                className="rounded-full"
+                />
             </div>
         </div>
     )
