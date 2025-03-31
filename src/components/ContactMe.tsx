@@ -31,7 +31,7 @@ export default function ContactMe() {
             </a>
 
             <a
-                href="www.linkedin.com/in/akarjun313"
+                href="https://www.linkedin.com/in/akarjun313"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white w-12 h-12 md:w-auto md:h-auto p-1 md:p-3 lg:p-4 rounded-md m-0 hover:cursor-pointer hover:shadow-[3px_5px_25px_0.5px_#7B4BD3] z-10 absolute right-20 md:right-60 lg:right-96"

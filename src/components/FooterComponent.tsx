@@ -83,7 +83,7 @@ export default function FooterComponent() {
                             </li>
                             <li>
                                 <a
-                                    href="www.linkedin.com/in/akarjun313"
+                                    href="https://www.linkedin.com/in/akarjun313"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
@@ -97,7 +97,7 @@ export default function FooterComponent() {
                             </li>
                             <li>
                                 <a
-                                    href="www.facebook.com/arjun.ak.9026/"
+                                    href="https://www.facebook.com/arjun.ak.9026/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
@@ -111,7 +111,7 @@ export default function FooterComponent() {
                             </li>
                             <li>
                                 <a
-                                    href="www.instagram.com/mr__.parkour/"
+                                    href="https://www.instagram.com/mr__.parkour/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
