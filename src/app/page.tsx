@@ -4,6 +4,9 @@ import Navbar from "@/ui/Navbar"
 import AboutDescription from "@/components/AboutDescription"
 import SkillSet from "@/components/SkillSet";
 import ProjectShowcase from "@/components/ProjectShowcase";
+import ContactMe from "@/components/ContactMe";
+import FooterComponent from "@/components/FooterComponent";
+import Hobbies from "@/components/Hobbies";
 
 
 export default function Home() {
@@ -66,9 +69,20 @@ export default function Home() {
       </section>
       <section
         id="contact"
+        className="pb-24 md:pb-36"
       >
         <SectionHeading headT="PING" headB="ME" caption="Connect Me Through" />
+        <ContactMe />
       </section>
+      <section
+        className="pb-24 md:pb-36"
+      >
+        <SectionHeading headT="WHEN I'M" headB="RECHARGING" caption="Life Outside Scripts" />
+        <Hobbies />
+      </section>
+      <footer>
+        <FooterComponent />
+      </footer>
 
     </main>
   );

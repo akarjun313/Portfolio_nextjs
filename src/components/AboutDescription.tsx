@@ -38,10 +38,10 @@ export default function AboutDescription() {
                 className="w-40 h-40 lg:w-60 lg:h-60 rounded-full shadow-lg hidden md:flex justify-center items-center relative"
             >
                 <Image
-                src = "/profil_IMG.jpg"
-                alt = "Profile_Image"
-                fill
-                className="rounded-full"
+                    src="/profil_IMG.jpg"
+                    alt="Profile_Image"
+                    fill
+                    className="rounded-full"
                 />
             </div>
         </div>
