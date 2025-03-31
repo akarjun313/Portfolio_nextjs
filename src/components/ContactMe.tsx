@@ -10,6 +10,7 @@ export default function ContactMe() {
                 className="h-1 md:h-2 bg-white w-full"
                 data-aos="slide-right"
                 data-aos-duration="3000"
+                data-aos-anchor-placement="top-bottom"
             ></div>
 
             <a
@@ -19,6 +20,7 @@ export default function ContactMe() {
                 className="bg-white w-12 h-12 md:w-auto md:h-auto p-1 md:p-3 lg:p-4 rounded-md m-0 hover:cursor-pointer hover:shadow-[3px_5px_25px_0.5px_#7B4BD3] z-10 absolute left-20 md:left-60 lg:left-96"
                 data-aos="flip-left"
                 data-aos-delay="1200"
+                data-aos-anchor-placement="top-bottom"
             >
                 <Image
                     src="/svg/gmail_logo.svg"
@@ -35,6 +37,7 @@ export default function ContactMe() {
                 className="bg-white w-12 h-12 md:w-auto md:h-auto p-1 md:p-3 lg:p-4 rounded-md m-0 hover:cursor-pointer hover:shadow-[3px_5px_25px_0.5px_#7B4BD3] z-10 absolute right-20 md:right-60 lg:right-96"
                 data-aos="flip-left"
                 data-aos-delay="1800"
+                data-aos-anchor-placement="top-bottom"
             >
                 <Image
                     src="/svg/linkedin_logo.svg"
