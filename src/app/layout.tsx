@@ -7,6 +7,7 @@ import AOSInitializer from "@/components/AOSInitializer"
 export const metadata: Metadata = {
   title: "Arjun A | Portfolio",
   description: "Portfolio showcasing my work as a MERN Stack Developer.",
+  icons: '/svg/my_logo.svg'
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
