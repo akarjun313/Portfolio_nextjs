@@ -7,11 +7,17 @@ export default function ContactMe() {
             className="flex flex-row items-center w-full relative pt-16 md:pt-32"
         >
             <div
-                className="h-1 md:h-2 bg-white w-full"
+                className="h-1 md:h-2 lg:h-20 w-full flex justify-center items-center"
                 data-aos="slide-right"
                 data-aos-duration="3000"
                 data-aos-anchor-placement="top-bottom"
-            ></div>
+            >
+                <div
+                className="h-1 md:h-2 w-full bg-white"
+                >
+
+                </div>
+            </div>
 
             <a
                 href="mailto:akarjun313@gmail.com"
