@@ -21,6 +21,9 @@ export default function Navbar() {
                     <NavbarBtns />
                 </div>
             </nav>
+
+            {/* Only visible on mobile  */}
+            {/* navbar for larger screens are under 'ui/NavbarBtns.tsx'  */}
             <div className="flex md:hidden justify-between mt-6 px-6">
                 <div className="text-white font-bold">
                 <Image
